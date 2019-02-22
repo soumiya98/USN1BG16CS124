@@ -1,3 +1,26 @@
+//challenge 1
+/*
+var markmass=60;
+var johnmass=50;
+var markh=5.6;
+var johnh=5.2;
+var bmim=markmass/(markh*markh);
+var bmij=johnmass/(johnh*johnh);
+var bool=bmim>bmij;
+console.log(bmim);
+console.log(bmij);
+console.log(bool);
+if(bool)
+{
+    console.log("mark bmi is greater")
+}
+else{
+    console.log("john bmi is greater")
+}
+
+
+
+
 //decision making
 /*var age=18;
 if(age<13){
