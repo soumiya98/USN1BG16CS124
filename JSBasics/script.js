@@ -20,7 +20,7 @@ else{
 
 
 
-
+*/
 //DOM
 
 document.getElementById('btn').onmouseover=function(){
@@ -35,14 +35,14 @@ document.getElementById('btn').onmouseout=function(){
 
     
 }
-document.getElementById("hid").onmouseover = function() {mouseOver()};
+document.getElementById("hId").onmouseover = function() {mouseOver()};
 
 function mouseOver() {
-    document.getElementById("hid").style.color = "red";
+    document.getElementById("hId").style.color = "red";
   }
 
 
-
+/*
 
 
 //decision making
