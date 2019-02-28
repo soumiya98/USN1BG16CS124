@@ -21,6 +21,30 @@ else{
 
 
 
+//DOM
+
+document.getElementById('btn').onmouseover=function(){
+    this.style.background="blue";
+   
+
+    
+}
+document.getElementById('btn').onmouseout=function(){
+    this.style.background="grey";
+   
+
+    
+}
+document.getElementById("hid").onmouseover = function() {mouseOver()};
+
+function mouseOver() {
+    document.getElementById("hid").style.color = "red";
+  }
+
+
+
+
+
 //decision making
 /*var age=18;
 if(age<13){
